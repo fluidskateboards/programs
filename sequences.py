@@ -16,3 +16,17 @@ print(b == c)
 n = -37
 print(bin(n))
 print(n.bit_length())
+point = (0,3)
+print(point[0])
+# Type Error
+# point[1] = 4
+fib = [3,5,8]
+print([1,2,*fib, 13,21])
+fruits = {'orange':'naranja','pear':'pera','apple':'manzana'}
+berries = {'strawberry':'fresa','blueberry':'arandano','blackberry':'mora'}
+print({'lemon':'limón',**fruits,**berries,'raspberry':'frambuesa'})
+# Syntax Error
+# x,y,z = *fib
+capitals = {'Chihuahua':'Chihuahua', 'Baja California':'Mexicali','Jalisco':'Guadalajara'}
+for state, capital in capitals.items():
+    print(f'The capital of {state} is {capital}')
