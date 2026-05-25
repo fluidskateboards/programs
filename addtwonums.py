@@ -1,10 +1,14 @@
-# from typing import Optional
+from typing import Optional
 # from some_module import ListNode
+class ListNode(object):
+    def __init__(self, x=0):
+        self.val = x
+        self.next = None
 class Solution:
     def addTwoNumbers (self, l1:Optional[ListNode], l2:Optional[ListNode]):
         currNode = ListNode()
         dummy = currNode
-        answer, carry = 0
+        answer, carry = 0, 0 
         while l1 and l2:
             if (l1.val + l2.val + carry) >= 10:
                 answer = (l1.val + l2.val + carry) % 10
