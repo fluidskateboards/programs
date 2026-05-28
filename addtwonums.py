@@ -1,9 +1,27 @@
 from typing import Optional
-# from some_module import ListNode
 class ListNode(object):
     def __init__(self, x=0):
         self.val = x
         self.next = None
+def build_linked_list(values):
+
+    dummy = ListNode()
+    current = dummy
+
+    for v in values:
+        current.next = ListNode(v)
+        current = current.next
+
+    return dummy.next
+def linked_list_to_list(node):
+
+    result = []
+
+    while node:
+        result.append(node.val)
+        node = node.next
+
+    return result
 class Solution:
     def addTwoNumbers (self, l1:Optional[ListNode], l2:Optional[ListNode]):
         currNode = ListNode()
@@ -46,6 +64,17 @@ class Solution:
 obj = Solution()
 #using pytest
 def test_addtwonums():
-    assert obj.addTwoNumbers([2,4,3],[5,6,4]) == [7,0,8]
-    # assert obj.addTwoNumbers([3,2,4],6) == [1,2]
-    # assert obj.addTwoNumbers([3,3],6) == [0,1]
+    l1=build_linked_list([2,4,3])
+    l2=build_linked_list([5,6,4])
+    res=obj.addTwoNumbers(l1,l2)
+    assert linked_list_to_list(res) == [7,0,8]
+def test_addtwonums1():
+    l1=build_linked_list([0])
+    l2=build_linked_list([0])
+    res=obj.addTwoNumbers(l1,l2)
+    assert linked_list_to_list(res) == [0]
+def test_addtwonums2():
+    l1=build_linked_list([9,9,9,9,9,9,9])
+    l2=build_linked_list([9,9,9,9])
+    res=obj.addTwoNumbers(l1,l2)
+    assert linked_list_to_list(res) == [8,9,9,9,0,0,0,1]
