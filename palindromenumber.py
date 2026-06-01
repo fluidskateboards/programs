@@ -13,7 +13,7 @@ class Solution:
 
 obj = Solution()
 #using pytest
-def test_longestsubstring():
+def test_palindrome():
     assert obj.isPalindrome(121) == True
     assert obj.isPalindrome(-121) == False
     assert obj.isPalindrome(10) == False
