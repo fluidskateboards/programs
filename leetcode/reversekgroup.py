@@ -1,8 +1,8 @@
 from typing import Optional
 class ListNode(object):
-    def __init__(self, x=0):
+    def __init__(self, x=0, next=None):
         self.val = x
-        self.next = None
+        self.next = next
 def build_linked_list(values):
 
     dummy = ListNode()
@@ -56,14 +56,12 @@ def test_reversekgroup():
     l1=build_linked_list([1,2,3,4,5])
     res=obj.reverseKGroup(l1,2)
     assert linked_list_to_list(res) == [2,1,4,3,5]
-def test_mergetwolists1():
+def test_reversekgroup1():
     l1=build_linked_list([1,2,3,4,5,6])
     res=obj.reverseKGroup(l1,3)
     assert linked_list_to_list(res) == [3,2,1,6,5,4]
-# def test_mergetwolists2():
-#     l1=build_linked_list([])
-#     l2=build_linked_list([0])
-#     res=obj.mergeTwoLists(l1,l2)
-#     assert linked_list_to_list(res) == [0]
-
+def test_reversekgroup2():
+    l1=build_linked_list([1,2,3,4,5,6])
+    res=obj.reverseKGroup(l1,2)
+    assert linked_list_to_list(res) == [2,1,4,3,6,5]
 
