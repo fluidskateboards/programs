@@ -8,3 +8,5 @@ As part of an effort to maintain healthy commits, I'll be adding code that I wri
 05/25/2026 Was able to secure an interview with Jersey Mike's today. There is no set date at the moment, and it is better than nothing.
 
 05/27/2026 Went to psychodrama and DBT today. Sent some emails and downloaded a video.
+
+06/11/2026 Went to DBT today, had a therapy session and executive functioning session. Played basketball.
