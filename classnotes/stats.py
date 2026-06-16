@@ -14,6 +14,7 @@ def mean(a):
     return sum(a)/len(a)
 print("input array is:", sys.argv)
 numbers = [int(x) for x in sys.argv[1:]]
-print("mean is:", mean(numbers))
-print("median is:", median(numbers))
 print(mean.__doc__)
+print("mean is:", mean(numbers))
+print(median.__doc__)
+print("median is:", median(numbers))
