@@ -17,4 +17,6 @@ As part of an effort to maintain healthy commits, I'll be adding code that I wri
 
 06/28/2026 Skated for 6 miles, fed the dogs, and needlepointed.
 
-06/29/2026 Completed two courses required for Jersey Mike's, and volunteered at a kitchen. Recorded a song. 
+06/29/2026 Completed two courses required for Jersey Mike's, and volunteered at a kitchen. Recorded a song.
+
+07/4/2026 Watched fireworks on a boat, played horse with my cousins and friends, went to the grocery store, helped make breakfast burritos for the family, sang karaoke, danced, and went in the hot tub.
