@@ -20,3 +20,5 @@ As part of an effort to maintain healthy commits, I'll be adding code that I wri
 06/29/2026 Completed two courses required for Jersey Mike's, and volunteered at a kitchen. Recorded a song.
 
 07/4/2026 Watched fireworks on a boat, played horse with my cousins and friends, went to the grocery store, helped make breakfast burritos for the family, sang karaoke, danced, and went in the hot tub.
+
+07/13/2026 Used libheif, an open-source library used for converting .heic photos into .png. Played chess, took the dogs for a short run, went to family therapy, AA step study, a coaching session and played more chess. 
